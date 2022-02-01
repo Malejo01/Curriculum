@@ -10,7 +10,7 @@
         <title>Curriculum Vitae</title>
         <link rel="icon" href="Foto.png" >   
             <style>
-            table, th, td, th {
+            table, th, td, tr {
                 border: 1px solid black;
                 padding: 10px;
             }
@@ -24,12 +24,12 @@
             <table>
                 <td><a href="https://www.facebook.com/mauro.lizarraga.7/"target="_blank">Facebook</a></td>
                 <td><a href="https://www.instagram.com/malejo_01/"target="_blank">Instagram</a></td>
-                <td><a href="https://twitter.com/MauroLiz01/"target="_blank">Twitter</a></td>
                 <td><a href="https://www.linkedin.com/in/mauro-alejandro-lizarraga-8260711a3/"target="_blank">Linkedin</a></td>
                 </tr>
             </table>
         </nav>
-        <img src="Foto Curriculum.jpg" alt="Foto de Perfil del curriculum" width = "200" > 
+        <p>Soy un Lorem ipsum dolor sit, amet consectetur adipisicing elit. Culpa omnis voluptates aliquam, reiciendis quod ad distinctio commodi soluta optio aliquid.</p>
+        <img src="Foto Curriculum.jpg" title="Foto CV" alt="Foto de Perfil del curriculum" width = "200px" > 
     </header>
     <main> 
       
@@ -47,15 +47,15 @@
                         <th>DNI:</th> <td>36.802.726</td>
                     </tr>
                     <tr>
-                        <th>Direccion:</th> <td>B° El tribuno Diario el Clarin 3932</td>
+                        <th>Dirección:</th> <td>B° El tribuno Diario el Clarin 3932</td>
                     </tr>
                     <tr>
-                        <th>Telefono</th>  <td>03815813233</td> <td> <a href="https://wa.me/3875813233/" target="_blank">Enviar mensaje</a></td>
+                        <th>Telefono</th>  <td>03875813233</td> <td> <a href="https://wa.me/3875813233/" target="_blank">Enviar mensaje</a></td>
                     </tr>
                     <tr>
                         <th>Correo Electronico</th>
                         <td>lizarragamauroalejandro@gmail.com</td>
-                        <td> <a href="https://wa.me/3875813233/" target="_blank">Enviar correo</a></td>
+                        <td> <a href="mailto:lizarragamauroalejandro@gmail.com" target="_blank">Enviar Correo</a></td>
                     </tr>
                 </table>
              </article>
@@ -110,8 +110,74 @@
                         <th> Clases particulares de Matemática a domicilio </th> <td>desde el año 2012 hasta la fecha </td>
                     </tr>
                 </table>
+            </article>}
+            <article>
+                <h1>Formulario de Contacto</h1>
+                <form action="">
+                    
+                    <label for="Nombre-empresa">
+                        <span>¿Cuál es el nombre de la empresa?</span>
+                        <input type="text" id="Nombre-empresa" required>
+                    </label>
+                    <br><br>
+                    <label for="Nombre-reclutador">
+                        <span>¿Cuál es el nombre del reclutador?</span>
+                        <input type="text" id="Nombre-reclutador">
+                    </label>
+                    <br><br>
+                    <label for="email">
+                        <span>Ingresa tu Correo Electronico</span>
+                        <input type="email" id="email" required>
+                    </label>
+                    <br><br>
+                    <span>Seleccione la modalidad de trabajo</span>
+                        <select name="Modalidad de trabajo" id="" required>
+                            <option value="Mixto">Mixto</option>
+                            <option value="Home Office">Home Office</option>
+                            <option value="Presencial">Presencial</option>
+                        </select>
+                        <br><br>
+                     <span>¿Como me vas a paga chango?</span>
+                        <select name="Tipo de moneda" id="">
+                            <option value="Peso (ARS)">Peso (ARS)</option>
+                            <option value="Dolar (USD)">Dolar (USD)</option>
+                            <option value="Patacones">Patacones</option>
+                            <option value="Bono Alimentario">Bono Alimentario</option>
+                            <option value="Criptomonedas">Criptomonedas</option>
+                        </select>
+                        <br><br>
+                        <span>Puesto Ofrecido</span>
+                        <select name="tipo de puesto" id="" required>
+                            <option value="Diseño">Diseño</option>
+                            <option value="Frontend">Frontend</option>
+                            <option value="Backend">Backend</option>
+                        </select>
+                        <br><br>
+                    <label for="Nombre">
+                        <span>¿Cuál es el nombre de la empresa?</span>
+                        <input type="text" id="Nombre">
+                    </label>
+                    <br><br>
+                    <span> Seleccione beneficios incluidos en la oferta</span>
+                    <input list="beneficios">
+                        <datalist id="beneficios"> 
+                            <option value="Obra social">Obra social</option>
+                            <option value="gimnasio">Gimnasio</option>
+                            <option value="Descuentos">Descuentos</option>
+                            <option value="Vacaciones">Vacaciones</option>
+                            <option value="Bonos de desempeño">Bonos de desempeño</option>
+                        </datalist>
+                    <br><br>
+                    <label for="Otros-beneficios">
+                        <span>¿Que otros beneficios ofrece?</span>
+                        <input type="text" id="otros-beneficios">
+                    </label>
+                    <br><br>
+                    <input type="submit">
+                </form>
             </article>
         </section>
+
       
     </main>
     <footer> 
